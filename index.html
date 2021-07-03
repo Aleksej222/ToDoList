@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>ToDo List</title>
+</head>
+
+<body>
+    <div class="main-container text-capitalize text-align">
+        <h1 class="text-align text-shadow">to do list</h1>
+
+       <div class="container text-capitalize text-align add-tasks">
+            <form class="add-task-form">
+                <input type="text" placeholder="add new task..." class="text-capitalize text-align input-add-task">
+                <button type="button" class="text-capitalize text-align btn btn-add-task">add task</button>
+            </form>
+       </div>
+
+       <div class="container text-capitalize text-align">
+            <h2 class="text-capitalize text-align text-shadow">list of tasks</h2>
+            
+            <div class="items">
+                <div class="task-item">
+                    <span class="task-name text-capitalize">drink water</span>
+                    <div class="task-icons">
+                        <span class="done"><i class="fa fa-check-circle-o" aria-hidden="true"></i></span>
+                        <span class="edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
+                        <span class="delete"><i class="fa fa-times-circle-o" aria-hidden="true"></i> </span>
+                    </div>
+                </div>
+                <div class="task-item">
+                    <span class="task-name text-capitalize">do laundry</span>
+                    <div class="task-icons">
+                        <span class="done"><i class="fa fa-check-circle-o" aria-hidden="true"></i></span>
+                        <span class="edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
+                        <span class="delete"><i class="fa fa-times-circle-o" aria-hidden="true"></i> </span>
+                    </div>
+                </div>
+                <div class="task-item">
+                    <span class="task-name text-capitalize">make lunch</span>
+                    <div class="task-icons">
+                        <span class="done"><i class="fa fa-check-circle-o" aria-hidden="true"></i></span>
+                        <span class="edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
+                        <span class="delete"><i class="fa fa-times-circle-o" aria-hidden="true"></i> </span>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <div class="container container-buttons">
+          <button type="button" class="text-capitalize text-align btn btn-completed">delete completed</button>
+          <button type="button" class="text-capitalize text-align btn btn-everything">delete everything</button>
+       </div>
+    </div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

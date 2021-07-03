@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5dc;
+}
+
+.main-container {
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.2%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 55%;
+    border-radius: 25px;
+    box-shadow: 10px 12px 10px 15px;
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+
+h1 {
+    word-spacing: 8px;
+    font-size: 2.7rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-shadow {
+    text-shadow: 5px 8px #f5f5dc;
+}
+
+.container {
+    width: 90%;
+    margin: .8em auto;
+    font-size: 1.4rem;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 2px;
+    border: 2px solid black;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.add-tasks {
+    display: flex;
+    justify-content: center;
+}
+
+.input-add-task {
+    outline: none;
+    border: 2px solid rgb(0, 0, 0); 
+    border-right: none;
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: .2em;
+    float: left;
+    clear: both;
+}
+
+.btn-add-task {
+    display: inline-block;
+    padding: .2em;
+}
+
+.items {
+    margin-top: 1.2em;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    padding: .5em;
+}
+
+.task-icons {
+    cursor: pointer;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-completed, .btn-everything {
+    padding: .5em;
+}
+
+
+@media screen and (max-width: 850px) {
+    body {
+        background-color: royalblue;
+    }
+
+    .main-container {
+        width: 90%;
+        margin-top: 2em;
+    }
+
+    h1 {
+        font-size: 2.1rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        width: 70%;
+        padding-bottom: .5em;
+        font-size: 1.3rem;
+    }
+    
+    .btn {
+        font-size: 1.2rem;
+    }
+    
+    .input-add-task {
+        font-size: 1.2rem;
+    }
+    
+    .task-item {
+        width: 70%;
+        padding: .3em;
+    }
+    
+    .task-icons {
+        width: 25%;
+    }
+    
+    .container-buttons {
+        width: 70%;
+    }
+    
+    .btn-completed, .btn-everything {
+        padding: .4em;
+    }
+}
+
+.completed {
+    color: green;
+}
